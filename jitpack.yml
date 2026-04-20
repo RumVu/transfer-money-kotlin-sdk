@@ -3,4 +3,4 @@ jdk:
 before_install:
   - sdk auto-update-settings
 install:
-  - ./gradlew :transfer_Money_SDK:publishReleasePublicationToMavenLocal
+  - ./gradlew :transfer_Money_SDK:publishToMavenLocal
